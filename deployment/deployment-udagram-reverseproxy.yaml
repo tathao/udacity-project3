@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: haont25/udagram-reverseproxyx:v3
+        - image: haont25/udagram-reverseproxy:v1
           name: reverseproxy
           imagePullPolicy: Always
           ports:
