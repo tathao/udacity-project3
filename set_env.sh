@@ -1,0 +1,9 @@
+export POSTGRES_USERNAME=postgres
+export POSTGRES_PASSWORD=88ry5QGxgjB6
+export POSTGRES_HOST=haont1-project3-postgres.clbw3hhnpixn.us-east-1.rds.amazonaws.com
+export POSTGRES_DB=haont1_project3
+export AWS_BUCKET=haont1-project3-bucket
+export AWS_REGION=us-east-1
+export AWS_PROFILE=default
+export JWT_SECRET=HN12122015
+export URL=http://localhost:8100
