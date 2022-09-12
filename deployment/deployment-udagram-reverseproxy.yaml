@@ -18,6 +18,13 @@ spec:
         - image: haont25/udagram-reverseproxy:v1
           name: reverseproxy
           imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "250m"
+            limits:
+              memory: "2048Mi"
+              cpu: "500m"
           ports:
             - containerPort: 8080
       restartPolicy: Always

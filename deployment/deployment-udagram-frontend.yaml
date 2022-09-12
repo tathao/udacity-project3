@@ -19,6 +19,13 @@ spec:
         - name: frontend
           image: haont25/udagram-frontend:v1
           imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "250m"
+            limits:
+              memory: "2048Mi"
+              cpu: "500m"
           ports:
             - containerPort: 80
       restartPolicy: Always

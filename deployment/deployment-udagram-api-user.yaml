@@ -18,6 +18,13 @@ spec:
         - name: backend-user
           image: haont25/udagram-api-user:v1
           imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "250m"
+            limits:
+              memory: "2048Mi"
+              cpu: "500m"
           #=======refer to github.com/caonguyen207===============#
           env:
             - name: URL
